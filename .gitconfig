@@ -1,0 +1,11 @@
+[user]
+	email = maxzhenzhera@gmail.com
+	name = Max Zhenzhera
+[core]
+	editor = vim
+[alias]
+	st = status
+	ci = commit
+	lo = log --graph --oneline --decorate
+[init]
+	defaultBranch = main

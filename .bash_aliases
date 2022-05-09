@@ -1,0 +1,5 @@
+alias full-update='sudo apt update -y && sudo apt upgrade -y'
+alias fix-micro='pulseaudio -k && noisetorch -i'
+alias tm='tmux new -s local'
+alias exit-code='echo $?'
+alias ports='sudo ss -tlpn'
