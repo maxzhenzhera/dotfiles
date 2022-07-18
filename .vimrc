@@ -30,6 +30,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugins
 " -----------------------------------------------
 Plugin 'davidhalter/jedi-vim'                   " python autocomplete [https://github.com/davidhalter/jedi-vim]
+Plugin 'rafi/awesome-vim-colorschemes.git'      " colorschemes [https://github.com/rafi/awesome-vim-colorschemes.git]
 " -----------------------------------------------
 call vundle#end()
 filetype plugin indent on
@@ -44,4 +45,10 @@ filetype plugin indent on
 " see :h vundle for more details or wiki for FAQ
 "
 
+" ===============================================
+
+" Plugins settings
+" ===============================================
+set background=dark                             " important var for colorscheme 
+:colorscheme jellybeans                         " some colorscheme
 " ===============================================
