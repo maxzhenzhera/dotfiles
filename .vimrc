@@ -1,4 +1,4 @@
-" Custom
+" Basic settings 
 " ===============================================
 set encoding=utf-8                              " file encoding
 
