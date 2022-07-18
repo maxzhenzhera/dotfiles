@@ -72,7 +72,7 @@ _BOLD=$(tput bold)
 if [ "$color_prompt" = yes ]; then
     PS1='\[${_GREEN}\]\u@\h\[${_RESET}\]:\[${_BLUE}\]\w\[${_BOLD}\]\[${_YELLOW}\]$(__git_ps1)\[${_RESET}\]$ ' 
 else
-	PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 unset color_prompt force_color_prompt
 
