@@ -1,6 +1,14 @@
 #!/bin/bash
 
-DOTFILES=".bash_profile .bashrc .bash_aliases .vimrc .tmux.conf .tmux.conf.local .gitconfig"
+DOTFILES="
+.bash_profile
+.bashrc
+.bash_aliases
+.vimrc
+.tmux.conf
+.tmux.conf.local
+.gitconfig
+"
 
 DOTFILES_DIR="${HOME}/dotfiles"
 EXEC_TIME=$(date +%Y_%m_%d__%H_%M)
