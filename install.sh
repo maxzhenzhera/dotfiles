@@ -47,7 +47,7 @@ link() {
     echo "Linking has been finished."
 }
 
-install_tmux_conf () {
+configure_tmux () {
     conf_repo="https://github.com/gpakosz/.tmux.git" 
     conf_dir="${HOME}/.tmux"
     echo "Current tmux setup depends on: ${conf_repo}"
@@ -81,11 +81,15 @@ install_vim_plugins() {
     vim +PluginInstall +qall
 }
 
+configure_vim() {
+    install_vim_conf
+    install_vim_plugins
+}
+
 
 backup
 link
-install_tmux_conf
-install_vim_conf
-install_vim_plugins
+configure_tmux
+configure_vim
 
 echo "Installing has been complete!"
