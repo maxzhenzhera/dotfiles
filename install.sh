@@ -10,7 +10,9 @@ DOTFILES="
 .gitconfig
 "
 
-DOTFILES_DIR="${HOME}/dotfiles"
+SCRIPT_PATH=$(readlink -f "$0")
+SCRIPT_DIR=$(dirname "$SCRIPT_PATH")
+
 EXEC_TIME=$(date +%Y_%m_%d__%H_%M)
 BACKUP_DIR="${HOME}/dotfiles_backup/${EXEC_TIME}"
 
@@ -35,7 +37,7 @@ backup () {
 link() {
     echo "Linking dotfiles to home directory..."
     for file in $DOTFILES; do
-        repo_file="${DOTFILES_DIR}/${file}"
+        repo_file="${SCRIPT_DIR}/${file}"
         if [ -f "$repo_file" ]; then
             home_file="${HOME}/${file}"
             echo " -> Linking ${repo_file} to ${home_file}"
