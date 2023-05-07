@@ -32,11 +32,11 @@ export HISTFILESIZE=2000  # default
 
 ### PATH ###
 if [ -d "$HOME/.bin" ] ;
-  then PATH="$HOME/.bin:$PATH"
+    then PATH="$HOME/.bin:$PATH"
 fi
 
 if [ -d "$HOME/.local/bin" ] ;
-  then PATH="$HOME/.local/bin:$PATH"
+    then PATH="$HOME/.local/bin:$PATH"
 fi
 ### PATH ###
 
@@ -78,6 +78,6 @@ alias tb="nc termbin.com 9999"
 
 ### Not public / local bashrc ###
 if [ -f "$HOME/.bashrc.local" ]; then
-	. "$HOME/.bashrc.local"
+    . "$HOME/.bashrc.local"
 fi
 ### Not public / local bashrc ###
