@@ -1,9 +1,7 @@
 #!/bin/bash
 
 DOTFILES="
-.bash_profile
 .bashrc
-.bash_aliases
 .vimrc
 .tmux.conf
 .tmux.conf.local
