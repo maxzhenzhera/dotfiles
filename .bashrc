@@ -35,8 +35,8 @@ if [ -d "$HOME/.local/bin" ]; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-if [ -d "$HOME/.local/bin" ] ;
-    then PATH="$HOME/.local/bin:$PATH"
+if [ -d "$HOME/.wine/bin" ]; then
+    export WINEPATH="$HOME/.wine/bin"
 fi
 ### PATH ###
 
