@@ -24,9 +24,10 @@ export XDG_RUNTIME_DIR=/run/user/`id -u`  # user systemd
 
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"  # man with colors
 
-export HISTCONTROL=ignoreboth  # default
-export HISTSIZE=1000  # default
-export HISTFILESIZE=2000  # default
+export HISTCONTROL=ignoreboth
+export HISTSIZE=100000
+export HISTFILESIZE=100000
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 ### EXPORT ###
 
 
