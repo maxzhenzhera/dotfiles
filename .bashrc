@@ -17,7 +17,6 @@ shopt -s checkwinsize  # default
 
 
 ### EXPORT ###
-export TERM="xterm-256color"  # getting proper colors
 export EDITOR="vim"
 
 export XDG_RUNTIME_DIR=/run/user/`id -u`  # user systemd
