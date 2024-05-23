@@ -66,11 +66,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-
-alias full-update='sudo apt update -y && sudo apt upgrade -y'
-alias ports='sudo ss -tlpn'
 alias exit-code='echo $?'
-
 alias tm='tmux new -s local'
 alias tb="nc termbin.com 9999"
 ### ALIASES ###
