@@ -1,8 +1,6 @@
 [user]
 	email = maxzhenzhera@gmail.com
 	name = Max Zhenzhera
-[core]
-	editor = vim
 [alias]
 	st = status
 	ci = commit
