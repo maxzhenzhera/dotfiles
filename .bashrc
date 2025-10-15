@@ -18,7 +18,7 @@ shopt -s checkwinsize  # default
 stty -ixon  # enable Ctrl+S in reverse-search
 
 ### EXPORT ###
-export EDITOR="vim"
+export EDITOR="nvim"
 
 export XDG_RUNTIME_DIR=/run/user/`id -u`  # user systemd
 
