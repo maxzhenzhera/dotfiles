@@ -45,3 +45,6 @@ set background=dark                             " important var for colorscheme
 
 let g:python_highlight_all = 1                  " enable all syntax highlighting features
 " ===============================================
+
+inoremap jj <Esc>
+
