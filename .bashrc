@@ -39,6 +39,10 @@ fi
 if [ -d "$HOME/.wine/bin" ]; then
     export WINEPATH="$HOME/.wine/bin"
 fi
+
+if [ -f "$HOME/.cargo/env" ]; then
+    . "$HOME/.cargo/env"
+fi
 ### PATH ###
 
 
