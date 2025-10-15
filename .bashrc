@@ -15,6 +15,7 @@ shopt -s histappend  # default
 shopt -s checkwinsize  # default
 ### SHOPT ###
 
+stty -ixon  # enable Ctrl+S in reverse-search
 
 ### EXPORT ###
 export EDITOR="vim"
