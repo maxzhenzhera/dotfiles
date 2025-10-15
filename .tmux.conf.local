@@ -344,6 +344,10 @@ set -g mode-keys vi
 # set -g prefix C-a
 # bind C-a send-prefix
 
+unbind-key C-b
+set -g prefix 'C-\'
+bind-key 'C-\' send-prefix
+
 # move status line to top
 #set -g status-position top
 
