@@ -19,10 +19,9 @@ stty -ixon  # enable Ctrl+S in reverse-search
 
 ### EXPORT ###
 export EDITOR="nvim"
+export MANPAGER='nvim +Man!'
 
 export XDG_RUNTIME_DIR=/run/user/`id -u`  # user systemd
-
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"  # man with colors
 
 export HISTCONTROL=ignoreboth
 export HISTSIZE=100000
