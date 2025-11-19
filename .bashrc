@@ -26,7 +26,7 @@ export XDG_RUNTIME_DIR=/run/user/`id -u`  # user systemd
 export HISTCONTROL=ignoreboth
 export HISTSIZE=100000
 export HISTFILESIZE=100000
-export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+# export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 ### EXPORT ###
 
 
